@@ -23,16 +23,3 @@ class wrdsData:
         df = pd.DataFrame(ohlc).reset_index().drop(columns='index').rename(columns={"prcod": "open", "prchd": "high", "prcld": "low", "prccd": "close"})
         
         self.table = df
-
-        
-
-#               Milisecond data from NYSE
-
-#ms_data = wrds.raw_sql("""select *
-#                            from taqm_2022.ctm_2022
-#                            where sym_root = %(symbol)s
-#                            and date>=%(start)s""",
-#                            params=p,
-#                            date_cols=['date'])
-
-#               NOT OHLC DATA
