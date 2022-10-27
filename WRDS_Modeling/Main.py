@@ -1,4 +1,4 @@
-from Tools.Research import wrdsData
+from Tools.WRDSData import wrdsData
 from Tools.Models.LinearRegression import linearRegression
 from Tools.Models.LGBMRegressor import lightGBMRegressor
 from datetime import date
