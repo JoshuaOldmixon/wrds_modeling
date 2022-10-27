@@ -4,6 +4,5 @@ Modeling Examples with Wharton Data Research Services (WRDS).
 
 Examples:
 
-Light Gradient Boosting Machine Regressor optimized with Optuna.
-
-Linear Regression from Sci-Kit Learn.
+1. Light Gradient Boosting Machine Regressor optimized with Optuna.
+2. Linear Regression from Sci-Kit Learn.
