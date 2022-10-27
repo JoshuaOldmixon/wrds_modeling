@@ -6,7 +6,12 @@ from dateutil.relativedelta import relativedelta
 class wrdsData:
 
     def __init__(self,symbol,start):
-        wrds = w.Connection(wrds_username='joldmixon')
+        
+        #               Change Login To Use
+        
+        wrds = w.Connection(wrds_username=*******)
+        
+        
         p = {'symbol': symbol, 'start': start}
         ohlc = wrds.raw_sql("""select prcod, prchd, prcld, prccd, tic, datadate
                                     from comp_na_daily_all.secd
