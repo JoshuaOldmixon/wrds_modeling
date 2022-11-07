@@ -1,5 +1,5 @@
 # WRDS Modeling
-Modeling prediction examples with Wharton Data Research Services (WRDS).
+Prediction model examples with Wharton Data Research Services (WRDS).
 
 
 Examples:
